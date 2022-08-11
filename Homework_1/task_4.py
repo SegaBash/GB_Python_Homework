@@ -4,4 +4,6 @@
 
 num = int(input('Введите число '))
 for i in range(2, num + 1, 2):
-    print(i)
+    print(i,end='')
+    if not i >= num - 1:
+        print(', ', end='')
