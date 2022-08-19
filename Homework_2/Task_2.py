@@ -5,5 +5,4 @@ false_true = range(2)
 for x in false_true:
     for y in false_true:
         for z in false_true:
-            
-            print(x, y, z, int(not ((x and y) or z)),  sep='\t')
+            print(x, y, z, int(not (x and y) or z),  sep='\t')
